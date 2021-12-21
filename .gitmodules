@@ -1,0 +1,9 @@
+[submodule "Packages/Mux"]
+	path = Packages/Mux
+	url = https://github.com/kakunpc/Mux.git
+[submodule "Packages/Mux.Markup.Animation"]
+	path = Packages/Mux.Markup.Animation
+	url = https://github.com/kakunpc/Mux.Markup.Animation.git
+[submodule "Packages/Mux.Markup.UI"]
+	path = Packages/Mux.Markup.UI
+	url = https://github.com/kakunpc/Mux.Markup.UI.git

@@ -1,5 +1,30 @@
 {
   "dependencies": {
+    "com.pixiv.mux": {
+      "version": "file:Mux",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.1",
+        "com.unity.settings-manager": "1.0.1"
+      }
+    },
+    "com.pixiv.mux.markup.animation": {
+      "version": "file:Mux.Markup.Animation",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.pixiv.mux": "0.0.0"
+      }
+    },
+    "com.pixiv.mux.markup.ui": {
+      "version": "file:Mux.Markup.UI",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.pixiv.mux": "0.0.0"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
       "depth": 0,
@@ -34,6 +59,20 @@
     },
     "com.unity.ide.vscode": {
       "version": "1.2.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.10.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "1.0.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
